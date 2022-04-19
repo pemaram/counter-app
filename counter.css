@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+}
+
+main{
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    position: absolute;
+    top: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+#zero{
+    margin-left: 130px;
+}
+
+
+.mainbutton{
+    margin-top: 100px;
+}
+
+button{
+    margin: 0 50px 0 50px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
